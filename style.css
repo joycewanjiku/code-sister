@@ -1,0 +1,25 @@
+.foot-inform{
+    display: flex;
+    justify-content: space-between;
+       background-color: #121F01;
+    color: #fff;
+    margin-top: 3%;
+    padding: 5% 5% ;
+  }
+  .logo{
+    width: 15%;
+  }
+  .last{
+    margin-left: 38%;
+    color: #121F01;
+  }
+  @media (max-width: 768px) {
+    .foot-inform{
+      flex-direction: column;
+      align-items: center;
+    }
+    .logo{
+      width: 50%;
+      margin-bottom: 20px;
+    }
+  }
